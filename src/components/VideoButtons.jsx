@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react"
 import Card from "./UI/Card"
+import collab from "../assets/collab.PNG"
+import automate from "../assets/automate.PNG"
+import secure from "../assets/secure.PNG"
 
 function Videolis({ handleSrc }) {
   const srcs = {
@@ -21,19 +24,19 @@ function Videolis({ handleSrc }) {
     },
     Collaborate: {
       desktop: {
-        poster: "/collab.PNG",
+        poster: collab,
       },
       para: "Work easily with your team in real time with GitHub Pull Requests, code reviews, and GitHub Discussions.",
     },
     Automate: {
       desktop: {
-        poster: "/automate.PNG",
+        poster: automate,
       },
       para: "Streamline your workflows with automated CI/CD, testing, planning, project management, issue labeling, approvals, onboarding, and more.",
     },
     Secure: {
       desktop: {
-        poster: "/secure.PNG",
+        poster: secure,
       },
       para: "Leverage tooling to detect, review, and fix vulnerabilities before they reach production.",
     },

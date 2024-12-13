@@ -1,11 +1,11 @@
 import Card from "./UI/Card"
 
 /**
- * 
- * @param {Object} props.source 
- * @returns 
+ *
+ * @param {Object} props.source
+ * @returns
  */
-function VideoCarousel({source}) {
+function VideoCarousel({ source }) {
   return (
     <>
       <Card className='mt-8 w-full md:w-11/12 mx-auto rounded-xl'>
