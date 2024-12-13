@@ -59,3 +59,9 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## License
 
 [MIT](LICENSE)
+
+## Self Rating: (5/10)
+
+I have used styled-css and tailwind css for designing & used react concepts for some other stuff. I haven't commented the code as i made it hastily. I can improve code quality as well as animations after learning three.js for 3D designs.
+
+
