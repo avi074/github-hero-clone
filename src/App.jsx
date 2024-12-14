@@ -9,11 +9,9 @@ function App() {
 
   const handleSrc = (o) => setSrc({...o})
 
-  console.log(src)
-
   return (
     <section id='hero' className='flex flex-col'>
-      <div className='pt-4 bg-gradient-to-b from-[#0d1117] via-blue-500 to-violet-400'>
+      <div className='pt-4 overflow-x-clip bg-gradient-to-b from-[#0d1117] via-blue-500 to-violet-400'>
         <Header />
         <VideoCarousel source={src} />
       </div>
